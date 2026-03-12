@@ -1,0 +1,23 @@
+{
+  "name": "cloud-manager-frontend",
+  "version": "0.0.0",
+  "description": "云管理平台前端，提供 Oracle、AWS、DNS 与任务队列管理界面。",
+  "author": "JenkinWoo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.2",
+    "vite": "^7.3.1"
+  }
+}

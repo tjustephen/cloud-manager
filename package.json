@@ -1,0 +1,36 @@
+{
+  "name": "cloud-manager",
+  "version": "1.0.0",
+  "description": "统一管理 Oracle、AWS、DNS 与任务队列的云资源管理平台。",
+  "author": "JenkinWoo",
+  "license": "ISC",
+  "private": true,
+  "type": "module",
+  "main": "backend/server.mjs",
+  "scripts": {
+    "start": "node backend/server.mjs",
+    "server": "node backend/server.mjs",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "oracle",
+    "aws",
+    "cloud",
+    "dns",
+    "telegram",
+    "lowdb"
+  ],
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.750.0",
+    "@aws-sdk/credential-providers": "^3.750.0",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.9",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "lowdb": "^7.0.1",
+    "multer": "^2.1.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "oci-sdk": "^2.126.1",
+    "uuid": "^13.0.0"
+  }
+}
